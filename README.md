@@ -1,5 +1,5 @@
 # trigram-translator
-program that reads files and stores trigrams (sets of three characters) and compares them to documents of "unknown" language to identify
+program that reads files and stores trigrams (sets of three characters) and compares them to documents of "unknown" language to identify the unknown language
 
 Created by: Teddy Laurita
 Created on: 11/14/15
@@ -7,10 +7,10 @@ COMP11
 Project2
 
 Translate_main.cpp
-    This function takes in a file with languages and files
-in it, prints out the file name, all the trigrams in that file, and their
-frequencies, and finally, prints out, for an unknown language text file,
-the percent chances, as a frequency that text file is written in any of
+    This function takes in a file with entries in the form of: Language filename.txt, 
+prints out the file name, all the trigrams (strings of three characters)
+in that file, and their frequencies, and finally, prints out, for an unknown language text file,
+the percent chances, that that text file is written in any of
 the other languages included in the original file.
 
 TrigramVector
